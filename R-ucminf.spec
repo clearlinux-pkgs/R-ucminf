@@ -4,7 +4,7 @@
 #
 Name     : R-ucminf
 Version  : 1.1.4
-Release  : 12
+Release  : 13
 URL      : https://cran.r-project.org/src/contrib/ucminf_1.1-4.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/ucminf_1.1-4.tar.gz
 Summary  : General-Purpose Unconstrained Non-Linear Optimization
@@ -35,10 +35,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1552942920
+export SOURCE_DATE_EPOCH=1556468670
 
 %install
-export SOURCE_DATE_EPOCH=1552942920
+export SOURCE_DATE_EPOCH=1556468670
 rm -rf %{buildroot}
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
@@ -74,7 +74,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export _R_CHECK_FORCE_SUGGESTS_=false
-R CMD check --no-manual --no-examples --no-codoc  ucminf || :
+R CMD check --no-manual --no-examples --no-codoc ucminf || :
 
 
 %files
@@ -104,4 +104,3 @@ R CMD check --no-manual --no-examples --no-codoc  ucminf || :
 %defattr(-,root,root,-)
 /usr/lib64/R/library/ucminf/libs/ucminf.so
 /usr/lib64/R/library/ucminf/libs/ucminf.so.avx2
-/usr/lib64/R/library/ucminf/libs/ucminf.so.avx512
