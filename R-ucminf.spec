@@ -4,7 +4,7 @@
 #
 Name     : R-ucminf
 Version  : 1.1.4
-Release  : 14
+Release  : 15
 URL      : https://cran.r-project.org/src/contrib/ucminf_1.1-4.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/ucminf_1.1-4.tar.gz
 Summary  : General-Purpose Unconstrained Non-Linear Optimization
@@ -35,10 +35,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1556468670
+export SOURCE_DATE_EPOCH=1556484129
 
 %install
-export SOURCE_DATE_EPOCH=1556468670
+export SOURCE_DATE_EPOCH=1556484129
 rm -rf %{buildroot}
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
