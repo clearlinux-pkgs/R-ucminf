@@ -4,10 +4,10 @@
 # Using build pattern: R
 #
 Name     : R-ucminf
-Version  : 1.1.4.3
-Release  : 43
-URL      : https://cran.r-project.org/src/contrib/ucminf_1.1-4.3.tar.gz
-Source0  : https://cran.r-project.org/src/contrib/ucminf_1.1-4.3.tar.gz
+Version  : 1.2.0
+Release  : 44
+URL      : https://cran.r-project.org/src/contrib/ucminf_1.2.0.tar.gz
+Source0  : https://cran.r-project.org/src/contrib/ucminf_1.2.0.tar.gz
 Summary  : General-Purpose Unconstrained Non-Linear Optimization
 Group    : Development/Tools
 License  : GPL-2.0+
@@ -42,10 +42,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1684428842
+export SOURCE_DATE_EPOCH=1685648806
 
 %install
-export SOURCE_DATE_EPOCH=1684428842
+export SOURCE_DATE_EPOCH=1685648806
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
@@ -96,10 +96,10 @@ R CMD check --no-manual --no-examples --no-codoc . || :
 /usr/lib64/R/library/ucminf/Meta/nsInfo.rds
 /usr/lib64/R/library/ucminf/Meta/package.rds
 /usr/lib64/R/library/ucminf/NAMESPACE
+/usr/lib64/R/library/ucminf/NEWS.md
 /usr/lib64/R/library/ucminf/R/ucminf
 /usr/lib64/R/library/ucminf/R/ucminf.rdb
 /usr/lib64/R/library/ucminf/R/ucminf.rdx
-/usr/lib64/R/library/ucminf/doc/TR0019.pdf
 /usr/lib64/R/library/ucminf/help/AnIndex
 /usr/lib64/R/library/ucminf/help/aliases.rds
 /usr/lib64/R/library/ucminf/help/paths.rds
