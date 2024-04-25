@@ -7,7 +7,7 @@
 #
 Name     : R-ucminf
 Version  : 1.2.1
-Release  : 47
+Release  : 48
 URL      : https://cran.r-project.org/src/contrib/ucminf_1.2.1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/ucminf_1.2.1.tar.gz
 Summary  : General-Purpose Unconstrained Non-Linear Optimization
